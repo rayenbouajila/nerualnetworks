@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEURAL NETWORKS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">NEURAL <span>NETWORKS</span></a>
+        <nav>
+         <a href="#">Home</a>
+         <a href="#" onclick="scrollToClass('test')">Team members</a>
+         <a href="#" onclick="scrollToClass('ds')">Data Structures</a>
+         <a href="#" onclick="scrollToClass('lossfunction')">Loss function</a>
+         <a href="#" onclick="scrollToClass('trainingprog')">Train progress</a>
+         <a href="#" onclick="scrollToClass('trainsteps')">Train steps</a>
+         <a href="#" onclick="scrollToClass('thankyou')">❤️</a>
+         <a href="#" onclick="scrollToClass('contact')">Contact</a>
+        </nav>
+    </header>
+    <section class="main">
+        <div class="left">
+          <div class="text">
+            <h1 class="txt1">C programming <span>final project</span></h1>
+            <div class="txt2">            
+                <h2 class="firsttxt">We are</h2>
+                <h2 class="secondtxt">Rayen Bouajila</h2>
+            </div>
+          <div class="btns">
+            <button class="btnhire" onclick="scrollToClass('test')">START PRESENTING</button>
+          </div>    
+    </section>
+    <section class="test">
+      <h3 class="testtitle">Team members</h3>
+      <div class="mmbrs">
+        <div class="containertest">
+          <div class="card">
+            <img src="./rayen.jpg" alt="" class="photo">
+            <h3 class="name">Rayen Bouajila</h3>
+          </div>
+          <div class="card">
+            <img src="./houda.jpg" alt="" class="photo">
+            <h3 class="name">Ahmed Baccouche</h3>
+          </div>
+  
+          <div class="card">
+            <img src="./hcicina.jpg" alt="" class="photo">
+            <h3 class="name">Mohamed Houcine</h3>
+          </div>
+          <div class="card">
+            <img src="./ghaziw.jpg" alt="" class="photo">
+            <h3 class="name">Ghazi Mouaddeb</h3>
+          </div>
+  
+        </div>
+        <div class="memberstxt">
+          <h2>This is the best group ever.
+            wanna know why? <br>
+            1-Cuz we are the four Horsemen of RAS TABYA <br>
+            2-Cuz Ghazi is here <br>
+            3-Cuz why not</h2>
+            <h3>There is absolutely nothing important written here i am just filling it in order to make this slide look full but yeah there is absolutely nothing important blah blah blah so i’mma just keep talking for a little bit longer, allright i’m tired just move on to the next slide thanks for reading to the end but you just wasted your time</h3>
+        </div>
+      </div>
+     
+    </section>
+    <section class="ds">
+      <h1 class="dstitle">DATA STRUCTURES</h1>
+      <div class="dscont">
+        <div class="dsleft">
+          <h1>Generally, neural networks are composed of two types of structures:</h1>
+          <div class="neuronsandlayers">
+            <div class="item">
+              <h2>Neurons</h2>
+              <h3>A neuron is a single node containing mainly the five elements in figure  (1)</h3>
+            </div>
+            <div class="item">
+              <h2>Layers</h2>
+              <h3>A Layer is a single node containing a predefined number of neurons however, the structure itself is only pointing to the first neuron which points to the next neuron etc... until the last neuron in the layer    </div>
+          </div>
+        </div>
+        <div class="dsright">
+          <div class="timgs">
+            <div class="vimgs">        
+                <div class="vimgitem">
+                  <h2>Neuron</h2>
+                  <img src="./neuron.png" alt="neruons">
+                </div>
+                <div class="vimgitem">
+                  <h2>Layer</h2>
+              <img src="./layer.png" alt="layers">
+                </div>
+            </div>
+            <img src="./neuralnetwork.png" alt="neuralnetwork">
+          </div>
+        </div>
+      </div>  
+    </section>
+    <section class="lossfunction">
+      <h1 class="dstitle">Loss function</h1>
+      <div class="losscontainer">
+        <h1>the loss function is a function that calculates the <br>
+          difference between the neuron’s output and the desired <br> output value,
+          which will be very useful later on in the training process</h1>
+          <img src="./lossfunction.png" alt="">
+        </div>
+    </section>
+
+    <section class="trainingprog">
+      <h1 class="dstitle">Training progress</h1>
+    <div class="trainelt"> 
+      <img src="./train.png" alt="">
+    </div>
+    </section>
+    <section class="trainsteps">
+      <h1 class="dstitle">Train Steps</h1>
+    <div class="trainstep">
+      <div class="txtstep">
+        <h2>1-Open the dataset from the .xlsx file and save it in a 100 by 3 matrix, the matrix[i][1] and matrix[i][2]
+          are the two inputs for each sample, and the matrix[i][3] is the desired result for this sample</h2>
+         <h2>2-We train our model for 100 epochs, each epoch trains the model using the gradient descent with the 100 samples provided in the dataset and save the results in a file</h2>
+         <h2>We parcour the file we saved and find the weghts and biases corresponding to the lowest loss function and apply them to the neuron
+         </h2> 
+      </div>
+       <img class="trainstepimg" src="./traincycle.png" alt="">
+      </div>
+    </section>
+    <section class="thankyou">
+      <img class="thnx" src="./thnx.png" alt="">
+    </section>.thankyou
+    <section class="contact">
+      <h3 class="contacttitle">Contact <span>Us</span></h3>
+    <div class="containercontact">
+      <div class="coord">
+         <input type="text" placeholder="Full name" class="inp">
+         <input type="text" placeholder="Email" class="inp">
+         <input type="text" placeholder="Phone Number" class="inp">
+         <input type="text" placeholder="Subject" class="inp">
+      </div>
+      <div class="msgandbtn">
+        <input type="text" name="" id="" placeholder="Your message" class="inp urmsg">
+        <button class="sendmsg btnhire">Send Message</button>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="sm sm2">
+      <a href="https://github.com/Ghaziiw/Neural-Network"><i class='bx bxl-github' ></i></a>
+      <a href="https://www.linkedin.com/in/rayenbouajila/"><i class='bx bxl-linkedin' ></i></a>
+      <a href="https://www.instagram.com/rayenbouajila_/"><i class='bx bxl-instagram' ></i></a>
+      <a href="https://www.facebook.com/rayenbouajilaa"><i class='bx bxl-facebook' ></i></a>
+    </div>    
+    <div class="links">         
+      <a href="#">Home</a>
+      <a href="#"  onclick="scrollToClass('test')">Team members</a>
+      <a href="#" onclick="scrollToClass('thankyou')">❤️</a>
+      <a href="#" onclick="scrollToClass('contact')">Contact</a>
+    
+    </div>
+    <h3 class="rights">All rights reserved | RAYEN BOUAJILA </h3>
+
+  </footer>
+    <script src="script.js" ></script>
+</body>
+</html>
